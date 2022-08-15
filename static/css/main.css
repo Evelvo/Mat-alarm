@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    background-color: #bdbdbd;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#middag-button {
+    margin-top: 15%;
+    display:inline-block;
+    border-radius: 20px;
+    width: 260px;
+    height: 260px;
+    text-align: center;
+    box-shadow: -5px 5px 14px black;
+    border: none;
+    background-color: #e0e0e0;
+    transition: all 0.1s linear 0.05s;
+    font-weight: bold;
+    font-size: 1.6em;
+    color: #c62828;
+  }
+  
+  @media (hover: hover){
+      
+    #middag-button:hover{
+      color: #d50000;
+      background-color: white;
+      transform: translate(0, -5px);
+      box-shadow: -2px 2px 2px black;
+    }
+    
+  }
+  
+  #middag-button:active{
+    color: #d50000;
+    background-color: white;
+    transform: scale(1.05) perspective(1px)
+  }
